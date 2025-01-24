@@ -13,6 +13,7 @@
 * create repository on github & copy link HTTPS
 * cd to file and in terminal - git init
 * git clone link-from-github
+* git remote add origin link-from-github
 * git add .
 * git commit -m "initial commit"
 * git push -u origin main
