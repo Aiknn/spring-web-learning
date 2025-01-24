@@ -11,10 +11,9 @@
 * Dependencies: *Spring Web, Spring Data JPA, H2 Database*
 ### Connect with GIT
 * create repository on github & copy link HTTPS
-* cd to file and in terminal - git init
-* git clone link-from-github
-* git remote add origin link-from-github
+* git init
 * git add .
 * git commit -m "initial commit"
+* git branch -M main
+* git remote add origin https://github.com/Aiknn/spring-web-learning.git
 * git push -u origin main
-* git push (is enough later after first push)
