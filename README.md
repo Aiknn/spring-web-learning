@@ -21,3 +21,13 @@
 * git add .
 * git commit -m "la la la"
 * git push
+### JPA
+* add domain package and create Entity POJOs
+* create empty constructor and full constructor
+* create getters and setters 
+* add @entity to POJO classes from jakarta.persistence
+* add id to POJOs and add @Id and @GeneratedValue(strategy = GenerationType.AUTO)
+* also add getters ans setters to id
+* add ManyToMany to first object @ManyToMany(mappedBy = "authors")
+* add ManyToMany to second object @ManyToMany @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"), inverseJoinColumns = @JoinColumn(name = "author_id"))
+
