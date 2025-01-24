@@ -17,3 +17,4 @@
 * git add .
 * git commit -m "initial commit"
 * git push -u origin main
+* git push (is enough later after first push)
