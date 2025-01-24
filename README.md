@@ -15,5 +15,9 @@
 * git add .
 * git commit -m "initial commit"
 * git branch -M main
-* git remote add origin linkFromGithub
+* git remote add origin link-from-github
 * git push -u origin main
+### Update GIT
+* git add .
+* git commit -m "la la la"
+* git push
