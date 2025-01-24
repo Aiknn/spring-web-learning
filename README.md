@@ -15,5 +15,5 @@
 * git add .
 * git commit -m "initial commit"
 * git branch -M main
-* git remote add origin https://github.com/Aiknn/spring-web-learning.git
+* git remote add origin linkFromGithub
 * git push -u origin main
