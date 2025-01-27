@@ -33,4 +33,13 @@
 ### Equality in Hibernate
 * add equals and hashCode - only for id 
 * add toString method through generator 
+### Repository
+* create repository package
+* create DomainRepository interfaces and extend from CrudRepository 
+* create bootstrap package 
+* create bootStrapData class and implement from CommandLineRunner
+* create private final variables from repository entities & constructor 
+* implement run method where create dummy data
+* create domain entities and save them through constructor 
+* run and check the app 
 
