@@ -43,4 +43,11 @@
 * implement run method where create dummy data
 * create domain entities and save them through constructor 
 * run and check the app 
+### H2 Database 
+* add dependency H2 Database (if not added before)
+* in application.properties add: spring.h2.console.enabled=true
+* go localhost:8080/h2-console
+* print in the form JDBC URL from terminal 
+* connect and then run any query 
+
 
