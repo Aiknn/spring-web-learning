@@ -30,6 +30,7 @@
 * also add getters ans setters to id
 * add ManyToMany to first object @ManyToMany(mappedBy = "authors")
 * add ManyToMany to second object @ManyToMany @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"), inverseJoinColumns = @JoinColumn(name = "author_id"))
+* if OneToMany, then add @OneToMany to first object, and @OneToMany @JoinColumn(name = "publisher_id") to the second object
 ### Equality in Hibernate
 * add equals and hashCode - only for id 
 * add toString method through generator 
