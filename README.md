@@ -49,5 +49,13 @@
 * go localhost:8080/h2-console
 * print in the form JDBC URL from terminal 
 * connect and then run any query 
+### MVC Controller
+* create controllers package 
+* crete EntityController POJO in it and put @Controller annotation 
+* create private final EntityRepository & constructor for it
+* create method - public String getBooks(Model model) with mapping @RequestMapping("/books")
+* inside the method - model.addAttribute("books", bookRepository.findAll());
+* return page
+
 
 
