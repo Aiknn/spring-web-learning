@@ -55,7 +55,18 @@
 * create private final EntityRepository & constructor for it
 * create method - public String getBooks(Model model) with mapping @RequestMapping("/books")
 * inside the method - model.addAttribute("books", bookRepository.findAll());
-* return page
+* return page from resources/templates
+### Thyme Leaf
+* add new dependency to POM & update maven
+  * <groupId>org.springframework.boot</groupId>
+  * <artifactId>spring-boot-starter-thymeleaf</artifactId>
+* create html5 page in resources/templates
+* add - html lang="en" xmlns:th="http://www.thymeleaf.org"
+* iteration from data
+  * tr th:each="book : ${books}"
+    * td th:text="${book.id}" 
+    * td th:text="${book.title}"
+* check localhost:8080/books 
 
 
 
