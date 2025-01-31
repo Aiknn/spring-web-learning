@@ -1,5 +1,4 @@
-<!--# Heading 1, ## Heading 2, ### Heading 3, **Bold**, *Italic* -->
-# Spring Web Learning Project
+# Spring Web Demo
 ### Development Environment
 * Java JDK 1.8+ (java --version, javac --version)
 * Maven 3.2.5+
